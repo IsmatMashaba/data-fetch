@@ -1,6 +1,19 @@
-#box {
+/*#box {
     display: grid; grid-template-columns:auto auto auto auto ;
+
+}*/
+#box {
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 
 }
 
+#productImg {
+    height : 50px;
+    width: 50px;
 
+}
+#productItemStyle {
+background-color: aqua;
+}
